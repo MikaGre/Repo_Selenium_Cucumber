@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bfa3e32-505c-45c7-b943-7b38dce01ac2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Feature/DarkSky/TempSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Feature/DarkSky/TempSummary.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Darksky/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Darksky/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Hotels/HotelsLandPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Hotels/HotelsLandPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/DarkSky/TempSummarySD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/DarkSky/TempSummarySD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hotels/HotelSearchSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hotels/HotelSearchSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/DarkSky/TempSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Feature/DarkSky/TempSummary.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Darksky/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Darksky/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/HotelsLandPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/HotelsLandPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TempSummarySD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TempSummarySD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/HotelSearchSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/HotelSearchSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Links.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Links.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Facebook/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Facebook/LandingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Facebook/FBLoginSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Facebook/FBLoginSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Facebook/Links.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Feature/Facebook/Links.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +35,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify the temp values on timeLine is same as its detail section">
-    <configuration name="Feature: TempSummary" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify Terms link takes goes to correct web page">
+    <configuration name="Feature: Links" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/DarkSky/TempSummary.feature" />
-      <option name="GLUE" value="StepDefinitions.DarkSky" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Links.feature" />
+      <option name="GLUE" value="StepDefinitions.Facebook" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RepoCucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: TempSummary" />
+      <option name="SUGGESTED_NAME" value="Feature: Links" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -63,15 +55,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify the cheapest available hotel is less than $100" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify Cookie Policy link takes goes to correct web page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/Hotels/Search.feature" />
-      <option name="GLUE" value="StepDefinitions.Hotels" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Links.feature" />
+      <option name="GLUE" value="StepDefinitions.Facebook" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RepoCucumber" />
-      <option name="NAME_FILTER" value="^Verify the cheapest available hotel is less than \$100$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify the cheapest available hotel is less than \$100$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify the cheapest available hotel is less than $100" />
+      <option name="NAME_FILTER" value="^Verify Cookie Policy link takes goes to correct web page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify Cookie Policy link takes goes to correct web page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Cookie Policy link takes goes to correct web page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -83,15 +75,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify the temp value changes as per temp unit selected by user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify Data Policy link takes goes to correct web page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/DarkSky/TempSummary.feature" />
-      <option name="GLUE" value="StepDefinitions.DarkSky" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Links.feature" />
+      <option name="GLUE" value="StepDefinitions.Facebook" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RepoCucumber" />
-      <option name="NAME_FILTER" value="^Verify the temp value changes as per temp unit selected by user$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify the temp value changes as per temp unit selected by user$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify the temp value changes as per temp unit selected by user" />
+      <option name="NAME_FILTER" value="^Verify Data Policy link takes goes to correct web page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify Data Policy link takes goes to correct web page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Data Policy link takes goes to correct web page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify Terms link takes goes to correct web page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Links.feature" />
+      <option name="GLUE" value="StepDefinitions.Facebook" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="RepoCucumber" />
+      <option name="NAME_FILTER" value="^Verify Terms link takes goes to correct web page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify Terms link takes goes to correct web page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Terms link takes goes to correct web page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -125,10 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify Terms link takes goes to correct web page" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Cookie Policy link takes goes to correct web page" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Data Policy link takes goes to correct web page" />
+        <item itemvalue="Cucumber Java.Feature: Links" />
         <item itemvalue="Cucumber Java.Scenario: Verify the temp values on timeLine is same as its detail section" />
-        <item itemvalue="Cucumber Java.Scenario: Verify the temp value changes as per temp unit selected by user" />
-        <item itemvalue="Cucumber Java.Scenario: Verify the cheapest available hotel is less than $100" />
-        <item itemvalue="Cucumber Java.Feature: TempSummary" />
       </list>
     </recent_temporary>
   </component>
@@ -146,21 +159,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2221" height="521" key="GridCell.Tab.0.bottom" timestamp="1594488548224">
+    <state width="2503" height="443" key="GridCell.Tab.0.bottom" timestamp="1594498361438">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2221" height="521" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1594488548224" />
-    <state width="2221" height="521" key="GridCell.Tab.0.center" timestamp="1594488548221">
+    <state width="2503" height="443" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1594498361438" />
+    <state width="2503" height="443" key="GridCell.Tab.0.center" timestamp="1594498361438">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2221" height="521" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1594488548221" />
-    <state width="2221" height="521" key="GridCell.Tab.0.left" timestamp="1594488548221">
+    <state width="2503" height="443" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1594498361438" />
+    <state width="2503" height="443" key="GridCell.Tab.0.left" timestamp="1594498361437">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2221" height="521" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1594488548221" />
-    <state width="2221" height="521" key="GridCell.Tab.0.right" timestamp="1594488548223">
+    <state width="2503" height="443" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1594498361437" />
+    <state width="2503" height="443" key="GridCell.Tab.0.right" timestamp="1594498361438">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
-    <state width="2221" height="521" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1594488548223" />
+    <state width="2503" height="443" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1594498361438" />
   </component>
 </project>

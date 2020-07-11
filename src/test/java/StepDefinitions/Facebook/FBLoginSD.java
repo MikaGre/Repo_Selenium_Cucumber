@@ -17,6 +17,7 @@ IncorrectLoginPage incorrectLoginPage = new IncorrectLoginPage();
     @Given("^I am on Facebook landing Page$")
     public void iAmOnFacebookLandingPage () {
         Web.initDriver("https://www.facebook.com/");
+
     }
 
     @When("^I enter '(.*)' as username$")

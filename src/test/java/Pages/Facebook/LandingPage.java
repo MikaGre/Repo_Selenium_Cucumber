@@ -20,7 +20,9 @@ public class LandingPage extends BasePage {
     String gender = null;
     String genderButtonXpath = "//label[text()='" + gender + "']/preceding-sibling::input";
     By genderRadioButton = By.xpath(genderButtonXpath);
-
+    By termsLinkLocator = By.id("terms-link");
+    By dataLinkLocator = By.id("privacy-link");
+    By cookiePolicyLinkLocator = By.id("cookie-use-link");
 
     //methods to interact with Landing Page Elements
     public void getFacebookLandingPage() {
@@ -84,4 +86,31 @@ public class LandingPage extends BasePage {
     public boolean isSignUpButtonEnabled(){
         return Web.getDriver().findElement(signUpSubmitButton).isEnabled();
     }
+
+    public void clickOnTermsLink(){
+        clickThis(termsLinkLocator);
+    }
+
+    public void clickOnDataLink(){
+        clickThis(dataLinkLocator);
+    }
+
+    public void clickOnCookiePolicyLink(){
+        clickThis(cookiePolicyLinkLocator);
+    }
+
+    public void switchToNextPage(){
+     String primaryWindow =  getCurrentWindowHandel();
+        for (String h : getAllWindowHandeles()) {
+            if (!h.equals(primaryWindow)) {
+                try {
+                    switchWindow(h);
+                    Thread.sleep(3000);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
+
 }
