@@ -11,9 +11,14 @@ public class LandingPage extends BasePage {
     By lowTempDegreesLocator = By.xpath("//span[@class='low-temp-text']");
     By highTempDegreesLocator = By.xpath("//span[@class='high-temp-text']");
     By mapTempUnitsLocator = By.id("map_units");
-    By tempUnitLocator = By.xpath("//div[@class='selectric-wrapper selectric-units selectric-below selectric-open']//b[@class='button']");
-    String tUnit = null;
-    By unitMPHSelection = By.xpath("//div[@class='selectric-wrapper selectric-units selectric-below selectric-open']//li[@class='last'][contains(text(),'" + tUnit + "')]");
+    By tempUnitLocator = By.xpath("//div[@id='header']//div[@class='selectric-wrapper selectric-units']//b[@class='button']");
+    By CMPHSelection = By.xpath("//div[@class='selectric-wrapper selectric-units selectric-open selectric-below']//li[@class='last'][contains(text(),'C, mph')]");
+    By todayTimeLineLocator = By.xpath("//span[contains(text(),'Today')]");
+    By todayTimeLineMinTempLocator = By.xpath("//div[@id=\"week\"]/a[1]/span[2]/span[@class='minTemp']");
+    By todayTimeLineMaxTempLocator = By.xpath("//div[@id=\"week\"]/a[1]/span[2]/span[@class='maxTemp']");
+    By todayTimeLineBarLocator = By.xpath("//div[@id=\"week\"]/a[1]/span[2]/span[@class='bar']");
+    By todayLowTempDetailsLocator = By.xpath("//div[@class='dayDetails revealed']//span[@class='highTemp swip']//span[@class='temp']");
+    By todayHighTempDetailsLocator = By.xpath("//div[@class='dayDetails revealed']//span[@class='lowTemp swap']//span[@class='temp']");
 
     public boolean isFeelsLikeTempisDisplayed(){
          return Web.getDriver().findElement(feelsLikeTempDegreesLocator).isDisplayed();
@@ -50,10 +55,39 @@ public class LandingPage extends BasePage {
         tempUnitsDropDown.selectByVisibleText(tempUnit.toUpperCase());
     }
 
-    public void selectTempFromNavDropDown(String tempUnit) throws InterruptedException {
-         tUnit = tempUnit;
-         clickThis(Web.getDriver().findElement(tempUnitLocator));
-         Thread.sleep(1000);
-         clickThis(Web.getDriver().findElement(unitMPHSelection));
+    public void selectCTempFromNavDropDown(){
+        try {
+            clickThis(Web.getDriver().findElement(tempUnitLocator));
+            Thread.sleep(1000);
+            clickThis(Web.getDriver().findElement(CMPHSelection));
+            Thread.sleep(2000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
+
+    public void scrollToTodayTimeline(){
+        scrollToElement(todayTimeLineLocator);
+    }
+
+    public String getMinTempFromTodayTimeLine(){
+       return getTextFromElement(todayTimeLineMinTempLocator);
+    }
+
+    public String getMaxTempFromTodayTimeLine(){
+        return getTextFromElement(todayTimeLineMaxTempLocator);
+    }
+
+    public String getTodayTimeLineDetailsLowTemp(){
+        return getTextFromElement(todayLowTempDetailsLocator);
+    }
+
+    public String getTodayTimeLineDetailsHighTemp(){
+        return getTextFromElement(todayHighTempDetailsLocator);
+    }
+
+    public void clickOnTodayTimeLine(){
+        clickThis(todayTimeLineBarLocator);
+    }
+
 }

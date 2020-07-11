@@ -38,7 +38,6 @@ public class HotelSearchSD {
     @And("^I click on Search button$")
     public void i_click_on_Search_button() throws InterruptedException {
         hotelsLandPage.clickSearchButton();
-        Thread.sleep(3000);
     }
 
     @Then("^I verify search result header is the same as text selected from auto suggestion$")

@@ -16,11 +16,23 @@ public class HotelsLandPage extends BasePage {
     }
 
     public void clickSearchButton(){
-        clickThis(searchButtonLocator);
+        try {
+            Thread.sleep(3000);
+            clickThis(searchButtonLocator);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    public void selectDestinationFromAutoSuggestion(String value){
-        selectFromAutoSuggestions(autoSuggestionLocator,value);
+    public void selectDestinationFromAutoSuggestion(String value)  {
+        try {
+            Thread.sleep(5000);
+            selectFromAutoSuggestions(autoSuggestionLocator, value);
+
+        } catch (InterruptedException e){
+          e.printStackTrace();
+        }
+
     }
 
 

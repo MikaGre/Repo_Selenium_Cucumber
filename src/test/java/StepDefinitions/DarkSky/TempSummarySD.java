@@ -2,6 +2,7 @@ package StepDefinitions.DarkSky;
 
 import Drivers.Web;
 import Pages.Darksky.LandingPage;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -29,9 +30,9 @@ public class TempSummarySD {
 
     }
 
-    @When("^I select \"([^\"]*)\" from temp unit dropdown$")
-    public void i_select_from_temp_unit_dropdown(String tempType) throws InterruptedException {
-    landingPage.selectTempFromNavDropDown(tempType);
+    @When("^I select ˚C, mph temp unit from dropdown$")
+    public void i_select_from_temp_unit_dropdown() {
+    landingPage.selectCTempFromNavDropDown();
     }
 
     @Then("^I verify feelsLike, low and high temp values changed as per unit selected$")
@@ -40,4 +41,5 @@ public class TempSummarySD {
         Assert.assertNotEquals(landingPage.getLowTemp(), lowTemp);
         Assert.assertNotEquals(landingPage.getHighTemp(), highTemp);
     }
+
 }
