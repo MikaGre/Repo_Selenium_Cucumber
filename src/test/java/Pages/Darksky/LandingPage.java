@@ -12,7 +12,7 @@ public class LandingPage extends BasePage {
     By highTempDegreesLocator = By.xpath("//span[@class='high-temp-text']");
     By mapTempUnitsLocator = By.id("map_units");
     By tempUnitLocator = By.xpath("//div[@id='header']//div[@class='selectric-wrapper selectric-units']//b[@class='button']");
-    By CMPHSelection = By.xpath("//div[@class='selectric-wrapper selectric-units selectric-open selectric-below']//li[@class='last'][contains(text(),'C, mph')]");
+    By CMPHSelection = By.xpath("//div[@id='header']//li[@class='last'][contains(text(),'C, mph')]");
     By todayTimeLineLocator = By.xpath("//span[contains(text(),'Today')]");
     By todayTimeLineMinTempLocator = By.xpath("//div[@id=\"week\"]/a[1]/span[2]/span[@class='minTemp']");
     By todayTimeLineMaxTempLocator = By.xpath("//div[@id=\"week\"]/a[1]/span[2]/span[@class='maxTemp']");

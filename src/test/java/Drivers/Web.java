@@ -1,7 +1,10 @@
 package Drivers;
 
+import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
 
@@ -9,12 +12,11 @@ public class Web {
 
     private static WebDriver driver;
 
+
+
     public static void initDriver(String url) {
         System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
         driver = new ChromeDriver();
-        //driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(10000, TimeUnit.MILLISECONDS);
         driver.get(url);
     }
 
@@ -37,6 +39,7 @@ public class Web {
     public static void deleteCookies() {
         driver.manage().deleteAllCookies();
     }
+
 
 
 }
