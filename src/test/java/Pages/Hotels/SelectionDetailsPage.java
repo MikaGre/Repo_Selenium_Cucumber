@@ -31,6 +31,7 @@ public class SelectionDetailsPage extends BasePage {
 
 
     public String isLowestPriceFromResultsLessThan(){
+        waitForElementVisible(pricesOfHotelsLowestToHighestResultsLocator,10);
         return getFirstNumberFromListOfResults(pricesOfHotelsLowestToHighestResultsLocator);
     }
 }

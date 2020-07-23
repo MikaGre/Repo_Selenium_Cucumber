@@ -20,7 +20,7 @@ IncorrectLoginPage incorrectLoginPage = new IncorrectLoginPage();
 
     }
 
-    @When("^I enter '(.*)' as username$")
+    @When("^I enter '(.+@.+.com)' as username$")
     public void i_enter_username(String email) {
       landingPage.enterLoginEmail(email);
     }
@@ -38,9 +38,9 @@ IncorrectLoginPage incorrectLoginPage = new IncorrectLoginPage();
     @Then("^I verify invalid credentials error message$")
     public void i_verify_invalid_credentials_error_message() throws InterruptedException {
         Thread.sleep(1000);
-        String actualmessage = incorrectLoginPage.getErrorMessage();
+        String actualMessage = incorrectLoginPage.getErrorMessage();
         String expectedMessage = "The email or phone number you’ve entered doesn’t match any account. Sign up for an account.";
-        Assert.assertEquals(actualmessage,expectedMessage,"Error message did not match");
+        Assert.assertEquals(actualMessage,expectedMessage,"Error message did not match");
     }
 
 
@@ -53,7 +53,6 @@ IncorrectLoginPage incorrectLoginPage = new IncorrectLoginPage();
             case "sign":
                 landingPage.isSignUpButtonEnabled();
                 break;
-
         }
     }
 }

@@ -1,17 +1,15 @@
 package Pages;
 
 import Drivers.Web;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.support.ui.*;
 
+import java.time.Duration;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.Set;
-import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 public class BasePage {
 
@@ -106,7 +104,7 @@ public class BasePage {
     }
 
     public void clearField (By locator) {
-        Web.getDriver().findElement(locator).click();
+        Web.getDriver().findElement(locator).clear();
     }
 
     public String getFirstNumberFromListOfResults (By locator) {
@@ -155,4 +153,110 @@ public class BasePage {
     public String getPageTitle () {
         return Web.getDriver().getTitle();
     }
+
+    public void switchToFrame (String iFrame) {
+        Web.getDriver().switchTo().frame(iFrame);
+    }
+
+    public void switchToFrame (By iFrameLocator) {
+        WebElement frame = Web.getDriver().findElement(iFrameLocator);
+        Web.getDriver().switchTo().frame(frame);
+    }
+
+    public void switchToAlert(){
+        Web.getDriver().switchTo().alert();
+    }
+
+    public void acceptAlert(){
+        Web.getDriver().switchTo().alert().accept();
+    }
+
+    public void dismissAlert(){
+        Web.getDriver().switchTo().alert().dismiss();
+    }
+
+    public String getTextAlert(){
+       return Web.getDriver().switchTo().alert().getText();
+    }
+
+    public void typeToAlert(String text) {
+        Alert alert = Web.getDriver().switchTo().alert();
+        alert.sendKeys(text);
+        alert.accept();
+    }
+
+    public void waitForElementVisible(By locator, int timeOutInSeconds) {
+        WebDriverWait wait = new WebDriverWait(Web.getDriver(),timeOutInSeconds);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
+    public void waitForPageTitle(String title, int timeOutInSeconds) {
+        WebDriverWait wait = new WebDriverWait(Web.getDriver(),timeOutInSeconds);
+        wait.until(ExpectedConditions.titleIs(title));
+    }
+
+    public WebElement findElementUsingFluentWait(By locator){
+        Wait fluentWait = new FluentWait<>(Web.getDriver())
+                .withTimeout(Duration.ofSeconds(25))
+                .pollingEvery(Duration.ofSeconds(1))
+                .ignoring(NoSuchElementException.class)
+                .ignoring(NoAlertPresentException.class)
+                .ignoring(ElementNotInteractableException.class)
+                .withMessage("Element is not found within 25 seconds");
+
+        WebElement e = (WebElement) fluentWait.until(new Function<WebDriver,WebElement>() {
+            public WebElement apply (WebDriver driver) {
+                return driver.findElement(locator);
+            }
+        });
+        return e;
+    }
+
+    public List <WebElement> findElementsUsingFluentWait(By locator){
+        Wait fluentWait = new FluentWait<>(Web.getDriver())
+                .withTimeout(Duration.ofSeconds(25))
+                .pollingEvery(Duration.ofSeconds(1))
+                .ignoring(NoSuchElementException.class)
+                .ignoring(NoAlertPresentException.class)
+                .ignoring(ElementNotInteractableException.class)
+                .withMessage("Element is not found within 25 seconds");
+
+       List<WebElement> e = (List<WebElement>) fluentWait.until((Function<WebDriver, List<WebElement>>) driver -> driver.findElements(locator));
+        return e;
+    }
+
+    public void selectDateFromCalendar(By locator, String userDate) {
+        List<WebElement> allDates = findElementsUsingFluentWait(locator);
+        for (WebElement date : allDates) {
+            if (date.getText().equals(userDate) ) {
+                clickThis(date);
+                break;
+            }
+        }
+    }
+
+   /* public void selectMonthFromCalendar(By locator, String userMonth) {
+        List<WebElement> allMonths = findElementsUsingFluentWait(locator);
+        for (WebElement month : allMonths) {
+            if (month.getText().contains(userMonth)) {
+                clickThis(month);
+                break;
+            }
+        }
+    }*/
+    public void selectMonthFromCalendar(By mLocator, By dLocator, By nextButton, String userMonth) {
+        WebElement month = findElementUsingFluentWait(mLocator);
+        List<WebElement> allDates = findElementsUsingFluentWait(dLocator);
+        String[] m = userMonth.split(" ");
+        do {
+            if (month.getText().contains(m[0])) {
+               selectDateFromCalendar(dLocator,m[1]);
+                break;
+            } else {
+                clickThis(nextButton);
+            }
+        } while (!month.getText().contains(userMonth));
+
+    }
+
 }

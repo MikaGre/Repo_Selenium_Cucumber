@@ -5,7 +5,7 @@ import Pages.BasePage;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class Naukri extends BasePage {
+public class NaukriSD extends BasePage {
    String primWindow = null;
 
    @Given("^Launch www.naukri.com$")
@@ -29,7 +29,6 @@ public class Naukri extends BasePage {
     public void close_all_advertisements_windows_EXCEPT_main_window_naukri_com_window()  {
         Web.getDriver().close();
         switchWindow(primWindow);
-
     }
 
 

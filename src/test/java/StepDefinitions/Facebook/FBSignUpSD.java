@@ -1,5 +1,6 @@
 package StepDefinitions.Facebook;
 
+import Drivers.Web;
 import Pages.Facebook.LandingPage;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
@@ -43,6 +44,7 @@ public class FBSignUpSD {
     @Then("^I press the sign up button$")
     public void i_press_the_sign_up_button() throws Throwable {
        landingPage.clickSignUpSubmitButton();
+
     }
 
 }

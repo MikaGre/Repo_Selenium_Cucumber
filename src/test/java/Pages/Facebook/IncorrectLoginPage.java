@@ -1,7 +1,6 @@
 package Pages.Facebook;
 
 
-import Drivers.Web;
 import Pages.BasePage;
 import org.openqa.selenium.By;
 
