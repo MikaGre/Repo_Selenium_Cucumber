@@ -245,17 +245,18 @@ public class BasePage {
         }
     }*/
     public void selectMonthFromCalendar(By mLocator, By dLocator, By nextButton, String userMonth) {
-        WebElement month = findElementUsingFluentWait(mLocator);
-        List<WebElement> allDates = findElementsUsingFluentWait(dLocator);
+        WebElement month;
         String[] m = userMonth.split(" ");
+        boolean isMonthVis = true;
         do {
+            month = findElementUsingFluentWait(mLocator);
             if (month.getText().contains(m[0])) {
-               selectDateFromCalendar(dLocator,m[1]);
-                break;
+                selectDateFromCalendar(dLocator,m[1]);
+                isMonthVis = false;
             } else {
                 clickThis(nextButton);
             }
-        } while (!month.getText().contains(userMonth));
+        } while (isMonthVis);
 
     }
 

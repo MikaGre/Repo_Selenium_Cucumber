@@ -36,7 +36,6 @@ public class CalenderSD  {
             landingPage.selectCheckInDate(DateHelper.getTomorrowDateValue());
         } else {
             landingPage.selectMonthFromCalender(checkInDate);
-            landingPage.selectCheckInDate(checkInDate);
         }
     }
 
