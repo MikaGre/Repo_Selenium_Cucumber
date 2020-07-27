@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bfa3e32-505c-45c7-b943-7b38dce01ac2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/Scholastic/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RepoCucumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RepoCucumber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_20.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_joor_java_8_0_9_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utils/ScreenShotHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Drivers/Web.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Drivers/Web.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Facebook/IncorrectLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Facebook/IncorrectLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Hotels/HotelsLandPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Hotels/HotelsLandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/Hotels/SelectionDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/Hotels/SelectionDetailsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/DarkSky/TempSummarySD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/DarkSky/TempSummarySD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/DarkSky/TimeLineSummarySD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/DarkSky/TimeLineSummarySD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Facebook/FBLinksSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Facebook/FBLinksSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Facebook/FBLoginSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Facebook/FBLoginSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Facebook/FBSignUpSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Facebook/FBSignUpSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hotels/HotelSearchSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Hotels/HotelSearchSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Naukri/Naukri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Naukri/NaukriSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Facebook/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Feature/Facebook/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Drivers/Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Drivers/Web.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Darksky/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Darksky/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/IncorrectLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/IncorrectLoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/HotelsLandPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/SelectionDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/SelectionDetailsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TempSummarySD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TempSummarySD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TimeLineSummarySD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TimeLineSummarySD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLinksSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLinksSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLoginSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLoginSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBSignUpSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBSignUpSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/HotelSearchSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/HotelSearchSD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Naukri/Naukri.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +38,16 @@
       <recent name="$PROJECT_DIR$/src/main/resources/Feature/Scholastic" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify user can select date from any month">
-    <configuration name="Feature: AccountCreation" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify Terms link takes goes to correct web page">
+    <configuration name="Scenario: User creates account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/Scholastic/AccountCreation.feature" />
+      <option name="GLUE" value="StepDefinitions.Scholastic" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RepoCucumber" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: AccountCreation" />
+      <option name="NAME_FILTER" value="^User creates account$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User creates account$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User creates account" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -97,15 +59,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: User creates account" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify Terms link takes goes to correct web page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/Scholastic/AccountCreation.feature" />
-      <option name="GLUE" value="StepDefinitions.Scholastic" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Links.feature" />
+      <option name="GLUE" value="StepDefinitions.Facebook" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="RepoCucumber" />
-      <option name="NAME_FILTER" value="^User creates account$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User creates account$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: User creates account" />
+      <option name="NAME_FILTER" value="^Verify Terms link takes goes to correct web page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Verify Terms link takes goes to correct web page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Terms link takes goes to correct web page" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -179,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify Terms link takes goes to correct web page" />
         <item itemvalue="Cucumber Java.Scenario: Verify user can select date from any month" />
         <item itemvalue="Cucumber Java.Scenario: Verify user can select date from Calendar" />
         <item itemvalue="Cucumber Java.Scenario: Verify amount of days displays from check in/out is accurate" />
         <item itemvalue="Cucumber Java.Scenario: User creates account" />
-        <item itemvalue="Cucumber Java.Feature: AccountCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -213,6 +175,11 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="941" y="340" key="#Scenario:_Verify_user_can_select_date_from_any_month/0.0.2560.1440@0.0.2560.1440" timestamp="1595355716424" />
+    <state x="206" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595893432526">
+      <screen x="0" y="23" width="1440" height="791" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1595893122921" />
+    <state x="206" y="138" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.791@0.23.1440.791" timestamp="1595893432526" />
     <state x="255" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1594834186067">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -237,6 +204,10 @@
     </state>
     <state width="1389" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594749732734" />
     <state width="1745" height="347" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1595512822614" />
+    <state x="274" y="122" key="Maven.ArtifactSearchDialog" timestamp="1595893672982">
+      <screen x="0" y="23" width="1440" height="791" />
+    </state>
+    <state x="274" y="122" key="Maven.ArtifactSearchDialog/0.23.1440.791@0.23.1440.791" timestamp="1595893672982" />
     <state x="263" y="57" key="SettingsEditor" timestamp="1594740124733">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
