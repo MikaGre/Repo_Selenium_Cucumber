@@ -1,125 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bfa3e32-505c-45c7-b943-7b38dce01ac2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_testng_1_2_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_appium_java_client_6_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_websocket_javax_websocket_api_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_masterthought_cucumber_reporting_2_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_framework_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_http_server_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_grizzly_grizzly_rcm_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_tyrus_tyrus_client_1_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_tyrus_tyrus_container_grizzly_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_tyrus_tyrus_core_1_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_tyrus_tyrus_spi_1_13_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openpnp_opencv_3_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_commons_1_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_cucumber_jvm_adaptor_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_adaptor_api_1_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_annotations_1_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_java_aspects_1_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_allure_allure_model_1_4_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_properties_properties_loader_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__velocity_tools_velocity_tools_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RepoCucumber.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RepoCucumber.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_64.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_14_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_13_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5538129a-7b67-4af7-91cb-faa068508918-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/65de6b57-041a-415a-80f4-13977db5553e-container.json" beforeDir="false" />
+    <list default="true" id="0bfa3e32-505c-45c7-b943-7b38dce01ac2" name="Default Changelist" comment="Added web @after -- screenshot failed test and quit chrome&#10;Added allure reports to POM">
+      <change afterPath="$PROJECT_DIR$/Reports/Default/formatter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Default/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Default/jquery-1.8.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Default/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reports/Default/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner/Command line test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner/Command line test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/Command line test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Utils/ScreenShotHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/DarkSky/TempSummary.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/DarkSky/TimeLineSummary.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Facebook/Links.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Facebook/Login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Facebook/SignUp.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Hotels/Calendar.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Hotels/DestinationSelection.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Hotels/Search.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Naukri/ClosePopUps.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Scholastic/AccountCreation.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Drivers/Web.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/BasePage$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Darksky/LandingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/IncorrectLoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/LandingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/HotelsLandingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/SelectionDetailsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Scholastic/LandingPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Scholastic/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Scholastic/SignUpPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TempSummarySD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TimeLineSummarySD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLinksSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLoginSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBSignUpSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/CalenderSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/DestinationSelectionSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/HotelSearchSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Naukri/NaukriSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Scholastic/CreateAccountSD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/DateHelper.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/Feature/Scholastic" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Verify the temp value changes as per temp unit selected by user">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Scenario: Verify Terms link takes goes to correct web page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/Feature/Facebook/Links.feature" />
@@ -249,8 +170,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Verify the temp value changes as per temp unit selected by user" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Verify the temp value changes as per temp unit selected by user" />
         <item itemvalue="Cucumber Java.Scenario: Verify Terms link takes goes to correct web page" />
         <item itemvalue="Cucumber Java.Scenario: Verify user can select date from any month" />
         <item itemvalue="Cucumber Java.Scenario: Verify user can select date from Calendar" />
@@ -289,14 +210,23 @@
       <option name="project" value="LOCAL" />
       <updated>1595895537771</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added web @after -- screenshot failed test and quit chrome">
+      <created>1595895952951</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595895952952</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ScreenShotHelper" />
     <MESSAGE value="Fixed selectMonthFromCalendar method" />
     <MESSAGE value="Added TestRunner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added TestRunner" />
+    <MESSAGE value="Added web @after -- screenshot failed test and quit chrome" />
+    <MESSAGE value="Added web @after -- screenshot failed test and quit chrome&#10;Added allure reports to POM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added web @after -- screenshot failed test and quit chrome&#10;Added allure reports to POM" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1060" y="567" key="#Configure_Path_Variables" timestamp="1594832085827">
@@ -320,38 +250,38 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="255" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1594834186067" />
-    <state x="628" y="23" key="CommitChangelistDialog2" timestamp="1595895537488">
+    <state x="814" y="102" key="CommitChangelistDialog2" timestamp="1595896435013">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state x="353" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1595894048150" />
-    <state x="628" y="23" key="CommitChangelistDialog2/0.23.2560.1331@0.23.2560.1331" timestamp="1595895537488" />
-    <state width="1680" height="253" key="GridCell.Tab.0.bottom" timestamp="1595895704558">
+    <state x="814" y="102" key="CommitChangelistDialog2/0.23.2560.1331@0.23.2560.1331" timestamp="1595896435013" />
+    <state width="1680" height="253" key="GridCell.Tab.0.bottom" timestamp="1595896643948">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.23.1440.791@0.23.1440.791" timestamp="1595893795273" />
     <state width="1389" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594749732735" />
-    <state width="1680" height="253" key="GridCell.Tab.0.bottom/0.23.2560.1331@0.23.2560.1331" timestamp="1595895704558" />
+    <state width="1680" height="253" key="GridCell.Tab.0.bottom/0.23.2560.1331@0.23.2560.1331" timestamp="1595896643948" />
     <state width="1745" height="347" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1595512822615" />
-    <state width="1680" height="253" key="GridCell.Tab.0.center" timestamp="1595895704557">
+    <state width="1680" height="253" key="GridCell.Tab.0.center" timestamp="1595896643947">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.center/0.23.1440.791@0.23.1440.791" timestamp="1595893795271" />
     <state width="1389" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594749732734" />
-    <state width="1680" height="253" key="GridCell.Tab.0.center/0.23.2560.1331@0.23.2560.1331" timestamp="1595895704557" />
+    <state width="1680" height="253" key="GridCell.Tab.0.center/0.23.2560.1331@0.23.2560.1331" timestamp="1595896643947" />
     <state width="1745" height="347" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1595512822614" />
-    <state width="1680" height="253" key="GridCell.Tab.0.left" timestamp="1595895704556">
+    <state width="1680" height="253" key="GridCell.Tab.0.left" timestamp="1595896643946">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.left/0.23.1440.791@0.23.1440.791" timestamp="1595893795270" />
     <state width="1389" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594749732733" />
-    <state width="1680" height="253" key="GridCell.Tab.0.left/0.23.2560.1331@0.23.2560.1331" timestamp="1595895704556" />
+    <state width="1680" height="253" key="GridCell.Tab.0.left/0.23.2560.1331@0.23.2560.1331" timestamp="1595896643946" />
     <state width="1745" height="347" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1595512822613" />
-    <state width="1680" height="253" key="GridCell.Tab.0.right" timestamp="1595895704557">
+    <state width="1680" height="253" key="GridCell.Tab.0.right" timestamp="1595896643947">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.right/0.23.1440.791@0.23.1440.791" timestamp="1595893795272" />
     <state width="1389" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594749732734" />
-    <state width="1680" height="253" key="GridCell.Tab.0.right/0.23.2560.1331@0.23.2560.1331" timestamp="1595895704557" />
+    <state width="1680" height="253" key="GridCell.Tab.0.right/0.23.2560.1331@0.23.2560.1331" timestamp="1595896643947" />
     <state width="1745" height="347" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1595512822614" />
     <state x="274" y="122" key="Maven.ArtifactSearchDialog" timestamp="1595893672982">
       <screen x="0" y="23" width="1440" height="791" />
@@ -362,11 +292,11 @@
     </state>
     <state x="263" y="57" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1594740124733" />
     <state x="781" y="365" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1594667052739" />
-    <state x="588" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595895539351">
+    <state x="588" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595895964913">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state x="331" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.791@0.23.1440.791" timestamp="1595894050950" />
-    <state x="588" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.1331@0.23.2560.1331" timestamp="1595895539351" />
+    <state x="588" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.1331@0.23.2560.1331" timestamp="1595895964913" />
     <state x="44" y="189" width="1337" height="1029" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595298730429">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
