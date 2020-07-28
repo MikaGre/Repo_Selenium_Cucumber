@@ -11,13 +11,13 @@ import org.junit.runner.RunWith;
         glue = {"StepDefinitions", "Drivers"},
 
         // This creates cucumber reports
-        plugin = {"pretty", "html:Reports/Default/"},
+        plugin = {"pretty", "html:target/site/cucumber-pretty"},
 
         // This create auto method name in camelCase
         snippets = cucumber.api.SnippetType.CAMELCASE,
 
         // Specify tags to be executed
-        tags = {"@sky"},
+        tags = {"@Cal"},
 
         // readable console logs
         monochrome = true

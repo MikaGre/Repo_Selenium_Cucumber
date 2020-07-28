@@ -1,46 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bfa3e32-505c-45c7-b943-7b38dce01ac2" name="Default Changelist" comment="Added web @after -- screenshot failed test and quit chrome&#10;Added allure reports to POM">
-      <change afterPath="$PROJECT_DIR$/Reports/Default/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reports/Default/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reports/Default/jquery-1.8.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reports/Default/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Reports/Default/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner/Command line test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestRunner/Command line test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/Command line test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/Utils/ScreenShotHelper.class" afterDir="false" />
+    <list default="true" id="0bfa3e32-505c-45c7-b943-7b38dce01ac2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/Default/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/Default/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Feature/Hotels/Calendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Feature/Hotels/Calendar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Feature/Hotels/Calendar.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Feature/Hotels/Calendar.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner/Command line test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestRunner/Command line test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/Command line test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestRunner/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Drivers/Web.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Drivers/Web.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/BasePage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/BasePage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Darksky/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Darksky/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/IncorrectLoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/IncorrectLoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Facebook/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/HotelsLandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/HotelsLandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/SelectionDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Hotels/SelectionDetailsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Scholastic/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Scholastic/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Scholastic/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Scholastic/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/Scholastic/SignUpPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/Scholastic/SignUpPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TempSummarySD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TempSummarySD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TimeLineSummarySD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/DarkSky/TimeLineSummarySD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLinksSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLinksSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLoginSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBLoginSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBSignUpSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Facebook/FBSignUpSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/CalenderSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/CalenderSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/DestinationSelectionSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/DestinationSelectionSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/HotelSearchSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Hotels/HotelSearchSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Naukri/NaukriSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Naukri/NaukriSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Scholastic/CreateAccountSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Scholastic/CreateAccountSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/DateHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/DateHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Utils/ScreenShotHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utils/ScreenShotHelper.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +88,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
@@ -217,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595895952952</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added web @after -- screenshot failed test and quit chrome&#10;Added allure reports to POM">
+      <created>1595896946818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595896946818</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -233,6 +263,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1060" y="567" key="#Configure_Path_Variables/0.0.2560.1440@0.0.2560.1440" timestamp="1594832085827" />
+    <state x="742" y="210" key="#Project_Structure" timestamp="1595898020549">
+      <screen x="0" y="23" width="2560" height="1331" />
+    </state>
+    <state x="742" y="210" key="#Project_Structure/0.23.2560.1331@0.23.2560.1331" timestamp="1595898020549" />
     <state x="933" y="346" key="#Scenario:_Verify_the_temp_value_changes_as_per_temp_unit_selected_by_user" timestamp="1594665901553">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
@@ -250,38 +284,38 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="255" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.2560.1417@0.23.2560.1417" timestamp="1594834186067" />
-    <state x="814" y="102" key="CommitChangelistDialog2" timestamp="1595896435013">
+    <state x="814" y="102" key="CommitChangelistDialog2" timestamp="1595896946466">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state x="353" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1595894048150" />
-    <state x="814" y="102" key="CommitChangelistDialog2/0.23.2560.1331@0.23.2560.1331" timestamp="1595896435013" />
-    <state width="1680" height="253" key="GridCell.Tab.0.bottom" timestamp="1595896643948">
+    <state x="814" y="102" key="CommitChangelistDialog2/0.23.2560.1331@0.23.2560.1331" timestamp="1595896946466" />
+    <state width="1062" height="288" key="GridCell.Tab.0.bottom" timestamp="1595898831562">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.23.1440.791@0.23.1440.791" timestamp="1595893795273" />
     <state width="1389" height="231" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1594749732735" />
-    <state width="1680" height="253" key="GridCell.Tab.0.bottom/0.23.2560.1331@0.23.2560.1331" timestamp="1595896643948" />
+    <state width="1062" height="288" key="GridCell.Tab.0.bottom/0.23.2560.1331@0.23.2560.1331" timestamp="1595898831562" />
     <state width="1745" height="347" key="GridCell.Tab.0.bottom/0.23.2560.1417@0.23.2560.1417" timestamp="1595512822615" />
-    <state width="1680" height="253" key="GridCell.Tab.0.center" timestamp="1595896643947">
+    <state width="1062" height="288" key="GridCell.Tab.0.center" timestamp="1595898831560">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.center/0.23.1440.791@0.23.1440.791" timestamp="1595893795271" />
     <state width="1389" height="231" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1594749732734" />
-    <state width="1680" height="253" key="GridCell.Tab.0.center/0.23.2560.1331@0.23.2560.1331" timestamp="1595896643947" />
+    <state width="1062" height="288" key="GridCell.Tab.0.center/0.23.2560.1331@0.23.2560.1331" timestamp="1595898831560" />
     <state width="1745" height="347" key="GridCell.Tab.0.center/0.23.2560.1417@0.23.2560.1417" timestamp="1595512822614" />
-    <state width="1680" height="253" key="GridCell.Tab.0.left" timestamp="1595896643946">
+    <state width="1062" height="288" key="GridCell.Tab.0.left" timestamp="1595898831560">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.left/0.23.1440.791@0.23.1440.791" timestamp="1595893795270" />
     <state width="1389" height="231" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1594749732733" />
-    <state width="1680" height="253" key="GridCell.Tab.0.left/0.23.2560.1331@0.23.2560.1331" timestamp="1595896643946" />
+    <state width="1062" height="288" key="GridCell.Tab.0.left/0.23.2560.1331@0.23.2560.1331" timestamp="1595898831560" />
     <state width="1745" height="347" key="GridCell.Tab.0.left/0.23.2560.1417@0.23.2560.1417" timestamp="1595512822613" />
-    <state width="1680" height="253" key="GridCell.Tab.0.right" timestamp="1595896643947">
+    <state width="1062" height="288" key="GridCell.Tab.0.right" timestamp="1595898831561">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state width="1398" height="180" key="GridCell.Tab.0.right/0.23.1440.791@0.23.1440.791" timestamp="1595893795272" />
     <state width="1389" height="231" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1594749732734" />
-    <state width="1680" height="253" key="GridCell.Tab.0.right/0.23.2560.1331@0.23.2560.1331" timestamp="1595896643947" />
+    <state width="1062" height="288" key="GridCell.Tab.0.right/0.23.2560.1331@0.23.2560.1331" timestamp="1595898831561" />
     <state width="1745" height="347" key="GridCell.Tab.0.right/0.23.2560.1417@0.23.2560.1417" timestamp="1595512822614" />
     <state x="274" y="122" key="Maven.ArtifactSearchDialog" timestamp="1595893672982">
       <screen x="0" y="23" width="1440" height="791" />
@@ -292,11 +326,11 @@
     </state>
     <state x="263" y="57" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1594740124733" />
     <state x="781" y="365" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1594667052739" />
-    <state x="588" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595895964913">
+    <state x="588" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595896948692">
       <screen x="0" y="23" width="2560" height="1331" />
     </state>
     <state x="331" y="167" key="Vcs.Push.Dialog.v2/0.23.1440.791@0.23.1440.791" timestamp="1595894050950" />
-    <state x="588" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.1331@0.23.2560.1331" timestamp="1595895964913" />
+    <state x="588" y="265" key="Vcs.Push.Dialog.v2/0.23.2560.1331@0.23.2560.1331" timestamp="1595896948692" />
     <state x="44" y="189" width="1337" height="1029" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1595298730429">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>

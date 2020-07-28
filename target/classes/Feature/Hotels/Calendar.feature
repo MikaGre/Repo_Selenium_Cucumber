@@ -8,6 +8,7 @@ Feature: Calendar
     And I enter 9 days from 'tomorrow' as checkout
     Then I verify 9 count on the briefcase
 
+    @Cal
   Scenario Outline: Verify user can select date from any month
     When I enter <checkIn> as check in
     And I enter <days> days from check in date
