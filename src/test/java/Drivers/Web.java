@@ -1,7 +1,9 @@
 package Drivers;
 
 
-import org.junit.After;
+import Utils.ScreenShotHelper;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -42,7 +44,10 @@ public class Web {
     }
 
     @After
-    public void tearDown(){
+    public static void quitDriver(Scenario scenario) {
+        if (scenario.isFailed()) {
+            ScreenShotHelper.takeWebScreenShot(scenario.getName());
+        }
         driver.quit();
     }
 
